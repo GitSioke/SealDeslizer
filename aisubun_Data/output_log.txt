@@ -1,0 +1,42 @@
+Initialize engine version: 5.0.1f1 (5a2e8fe35a68)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 5500 (ID=0x1616)
+    Vendor:   Intel
+    VRAM:     1919 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Nando\Documents\Aisubun2\aisubun_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Nando\Documents\Aisubun2\aisubun_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Nando\Documents\Aisubun2\aisubun_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Nando\Documents\Aisubun2\aisubun_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Nando\Documents\Aisubun2\aisubun_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Nando\Documents\Aisubun2\aisubun_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Nando\Documents\Aisubun2\aisubun_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Nando\Documents\Aisubun2\aisubun_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Nando\Documents\Aisubun2\aisubun_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Nando\Documents\Aisubun2\aisubun_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.408 seconds
+desktop: 1920x1080 59Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Nando\Documents\Aisubun2\aisubun_Data\Managed\System.Core.dll (this message is harmless)
+ArgumentException: The thing you want to instantiate is null.
+  at UnityEngine.Object.CheckNullArgument (System.Object arg, System.String message) [0x00006] in C:\buildslave\unity\build\Runtime\Export\UnityEngineObject.cs:102 
+  at UnityEngine.Object.Instantiate (UnityEngine.Object original, Vector3 position, Quaternion rotation) [0x00000] in C:\buildslave\unity\build\Runtime\Export\UnityEngineObject.cs:79 
+  at BoardManager.BoardSetup () [0x00068] in C:\Users\Nando\Documents\Aisubun2\Assets\Scripts\BoardManager.cs:63 
+  at BoardManager.SetupScene (Int32 level) [0x00000] in C:\Users\Nando\Documents\Aisubun2\Assets\Scripts\BoardManager.cs:91 
+  at GameManager.InitGame () [0x00000] in C:\Users\Nando\Documents\Aisubun2\Assets\Scripts\GameManager.cs:18 
+  at GameManager.Awake () [0x0000c] in C:\Users\Nando\Documents\Aisubun2\Assets\Scripts\GameManager.cs:13 
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Export/UnityEngineObject.cs Line: 102)
+
+<RI.Hid> Failed to create device file:
+ 2 El sistema no puede encontrar el archivo especificado.
+
+ 
+(Filename: C:/buildslave/unity/build/PlatformDependent/Win/RawInput.cpp Line: 54)
+
+Waiting for finish
